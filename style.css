@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.best-navbar{
+    display: flex;
+}
+
+.logo img{
+    height: 80px;
+    width:100px;
+    /* border: 1px solid #555; */
+    border-radius: 5px;
+    
+}
+
+.nav-items{
+    width: 70%;
+    background-color: #3a07fa;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    font-family: 'Secular One', sans-serif;
+
+
+
+    
+}
+.nav-items li{
+    list-style: none;
+    padding: 0 25px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+  
+}
+.nav-items li a:hover{
+
+    color: rgb(151, 148, 148);
+
+}
+
+.rightside{
+    background-color:  #3a07fa;
+    width: 30%;
+    text-align: right;
+
+    
+}
+
+#search{
+    padding: 5px;
+    font-weight: 400;
+    font-size: 19px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+
+}
+
+/* Section */
+.contant{
+    display: flex;
+    flex-basis: 50%;
+    padding: 80px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    height: 800px;
+    width: 1300px;
+    color: rgb(78, 31, 173);
+    
+   
+
+
+}
+.paragraph{
+
+    padding: 100px 20px;
+    margin: 30px 0px;
+    font-weight: 700;
+    color:black;
+    font-family: 'Secular One', sans-serif;
+    
+   
+
+
+}
+
+.paragraph p{
+    font-size: 34px;
+    font-family: 'Secular One', sans-serif;
+    color:rgb(9, 8, 12);
+    
+    
+
+
+   
+}
+
+.paragraph small{
+    font-size: 18px;
+    font-family: 'Secular One', sans-serif;
+    color: rgb(9, 8, 12);
+   
+    
+  
+
+}
+.image{
+
+    padding-right: 60px;
+    height: 35px;
+    width: 50%;
+
+}
+.btn{
+    color: black;
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+    font-family: 'Secular One', sans-serif;
+    margin: 10px 10px;
+
+}
+.btn:hover{
+    box-shadow: blueviolet;
+    background-color: gray;
+   
+}
+
+
+
+
+
+
+
